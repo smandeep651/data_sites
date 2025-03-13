@@ -1,0 +1,25 @@
+{
+  "name": "data_sites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "json-server --watch data-sites.json --host 0.0.0.0 --port 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smandeep651/data_sites.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/smandeep651/data_sites/issues"
+  },
+  "homepage": "https://github.com/smandeep651/data_sites#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
